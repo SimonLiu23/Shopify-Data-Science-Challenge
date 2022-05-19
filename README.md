@@ -10,11 +10,11 @@ The high average order value of $3145.13 is calculated by taking the mean (avera
 As the Shopify blog below suggests, looking at AOV only gives a partial picture of customer purchase behavior. It is best to consider all three measures of central tendency using mean, median, and mode (when logical and possible).
 
 Reference: https://www.shopify.com.ng/blog/average-order-value#averageorder 
-<br><br>
+<br><br><br>
 **b.	What metric would you report for this dataset?**
 
 I would use the mean of the IQR dataset (middle 50%) since this symmetrically omits outliers from both sides (mins and maxs) that may otherwise skew the average order value (AOV).
-<br><br>
+<br><br><br>
 **c.	What is its value?**
 
 275.4 
@@ -37,7 +37,7 @@ ON o.ShipperID = s.ShipperID
 WHERE s.ShipperName = 'Speedy Express'
 
 **Query Result:** 54
-<br><br>
+<br><br><br>
 **b.	What is the last name of the employee with the most orders?**
 
 SELECT e.LastName, COUNT(*) AS NumOfOrders
@@ -55,7 +55,7 @@ ORDER BY NumOfOrders DESC
 LIMIT 1
 
 **Query Result:** Peacock with 40 orders
-<br><br>
+<br><br><br>
 **c.	What product was ordered the most by customers in Germany?**
 
 SELECT p.ProductName,
